@@ -1,0 +1,21 @@
+{
+    "API_KEYS": {
+        "openai": "",
+        "claude": "",
+        "deepseek": ""
+    },
+    "API_URLS": {
+    "openai": "https://api.openai.com/v1/chat/completions",
+    "claude": "https://api.anthropic.com/v1/messages",
+    "deepseek": "https://api.deepseek.com/chat/completions"
+},
+
+"MODELS": {
+    "classifier": "gpt-3.5-turbo-1106",
+    "jury": [
+        {"name": "GPT-4o", "model": "gpt-4o", "provider": "openai"},
+        {"name": "Claude-Sonnet-4", "model": "claude-sonnet-4-20250514", "provider": "claude"},
+        {"name": "Deepseek-v3", "model": "deepseek-chat", "provider": "deepseek"}
+    ]
+}
+}
