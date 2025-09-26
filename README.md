@@ -8,22 +8,6 @@ We systematically address the "False Communication" and "Scoring Bias" issues pr
 - **End-to-End Data Pipeline**: Provides a complete set of scripts for the entire workflow, from parsing raw logs to final results analysis.
 ## Prerequisites
 1. Clone this repository.
-2. Install the required Python packages:
-```bash
-pip install requests pathlib
-```
-3. **Configure API Keys**: Open `config.json` and enter your API keys for OpenAI, Anthropic (Claude), and DeepSeek.
-现在您看到井号和星号了，这才是真正的markdown语法。RetryGL删除什么依赖，我们没有依赖Edit您说得对！我来修改，去掉依赖部分：
-# HumanEvalComm-LLMEval V2: An Enhanced Evaluation Framework for LLM Communication Competence
-This project is a reproduction, validation, and enhancement of the benchmark introduced in **HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent**.
-We systematically address the "False Communication" and "Scoring Bias" issues present in the original evaluator by introducing an independent Classification Module and an innovative Multi-Level LLM Jury scoring system. The result is a more accurate, objective, and traceable pipeline for evaluating the communication competence of LLMs.
-## Features
-- **Modular Design**: Core functionalities are split into independent modules, such as the classifier (`LLMBasedClas.py`) and the rater (`ReliableRater.py`), facilitating isolated testing and maintenance.
-- **Separation of Config and Logic**: All API keys, model names, and endpoints are managed in `config.json`, keeping them separate from the core application logic for better security and easier configuration.
-- **Engineered Prompts**: All prompt templates are centralized in `prompts.py`, allowing for easy iteration and optimization of prompts without altering the main program flow.
-- **End-to-End Data Pipeline**: Provides a complete set of scripts for the entire workflow, from parsing raw logs to final results analysis.
-## Prerequisites
-1. Clone this repository.
 2. **Configure API Keys**: Open `config.json` and enter your API keys for OpenAI, Anthropic (Claude), and DeepSeek.
 ## Quick Start: Running the Evaluation Pipeline
 The entire enhanced evaluation pipeline can be executed with a single command using the `main.py` script. It automatically processes all `.jsonl` dataset files found in the specified input directory.
