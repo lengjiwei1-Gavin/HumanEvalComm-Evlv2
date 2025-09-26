@@ -1,0 +1,7 @@
+Model,Total_Replies,Old_Communication_Rate,Old_Good_Question_Rate,New_Communication_Rate,New_Good_Question_Rate,False_Scoring_Rate
+CodeQwen1.5-7B-Chat,120,88.33,42.5,0.83,0.0,87.5
+deepseek-llm-7b-chat,120,94.17,58.33,22.5,2.5,69.17
+deepseek-coder-6.7b-instruct,120,95.83,52.5,20.83,5.0,74.17
+gpt-3.5-turbo-0125,120,20.0,13.33,15.0,5.83,5.0
+CodeLlama-13b-Instruct-hf,120,61.67,33.33,5.0,0.0,55.83
+Okanagan,120,70.0,50.0,69.17,15.0,0.83
