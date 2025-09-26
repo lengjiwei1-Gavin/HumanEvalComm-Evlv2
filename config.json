@@ -1,8 +1,8 @@
 {
     "API_KEYS": {
-        "openai": "",
-        "claude": "",
-        "deepseek": ""
+        "openai": "Your_KEY",
+        "claude": "Your_KEY",
+        "deepseek": "Your_KEY"
     },
     "API_URLS": {
     "openai": "https://api.openai.com/v1/chat/completions",
